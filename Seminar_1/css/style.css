@@ -1,0 +1,157 @@
+/* Обнуляющий стиль */
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/* Обнуляющий стиль */
+
+@font-face {
+	font-family: 'Teddy Bear';
+	src: url('../fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+}
+
+img{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+p{
+    color: rgb(41, 18, 61);
+    word-spacing: 5px;
+}
+h1{
+    font-weight: 700;
+    color: rgb(116, 108, 236);
+    text-shadow: 0.5px 0.5px 1px#540564;
+}
+h2{
+    word-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menu {
+    background-color: blueviolet;
+    padding: 20px 30px;
+    
+}
+.menu a{
+    margin: 0px 20px 0 0;
+    color: rgb(113, 255, 208);
+}
+
+.menu a:visited{
+    color: rgb(105, 212, 177);
+}
+.menu a:hover{
+    color: pink;
+}
+
+.content {
+    padding: 10px 300px;
+    font-size: 15px;
+    line-height: 20px;
+    word-spacing: 3px;
+}
+.header {
+    margin: 40px 120px;
+    font-size: 40px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.header__mainPage{
+    width: 350px;
+    margin: 0 auto;
+}
+
+.mainPageDescription{
+    margin: 50px 0 50px 0;
+    text-indent: 10px;
+}
+
+.welcome{
+    width: 300px;
+    margin: 0 auto;
+}
+.welcome h2{
+    color: #540564;
+    
+}
+
+.welcome_description{
+    margin: 60px 100px;
+}
+
+.catalogDescription {
+    margin: 50px 0;
+    text-indent: 10px;
+}
+.items {
+    border: 1px dashed #540564;
+    margin: 0 0 30px 0;
+}
+
+.items__container {
+    margin: 20px;
+    width: 100;
+}
+.items h2{
+    margin: 30px 0 30px 60px;
+    font-family: 'Teddy Bear';
+    letter-spacing: 1.5px;
+}
+
+.items p{
+    margin: 0 30px;
+}
+
+
+.contact {
+    color: #540564;
+    margin: 100px;
+}
+.contact h2{
+    font-size: 30px;
+}

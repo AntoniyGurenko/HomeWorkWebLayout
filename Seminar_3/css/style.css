@@ -1,0 +1,259 @@
+/* Домашнее задание
+
+1. Открыть макет сайта https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=23%3A2
+
+2. необходимо представить разбиение часть на блоки (Для тех учеников которые умеют работать с фигма разбить представленную на скриншоте часть на блоки, как в семинаре)
+
+3. Создать новую папку
+
+4. Создать файл index.html
+
+5. В соответствии с макетом необходимо:
+
+6. Добавить все блоки по сайту
+
+7. Добавить все наполнение блоков (html контент)
+
+8. Все заголовки, параграфы кнопки и изображения
+
+Позиционирование задавать не нужно
+
+10. Создать файл стилей style.css
+
+1. Подключить стили к index.html
+
+2. Добавить обнуление стилей
+
+3. Добавить все необходимые отступы margin, padding
+
+Все домашние задания являются повторением того что делается на семинаре, поэтому перед выполнением обязательно посмотрите семинар. */
+
+
+/* ------------------------------------- Обнуляющий стиль ------------------------------------ */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+
+
+
+/* ------------------------------------- Обнуляющий стиль ------------------------------------ */
+
+@font-face {
+    font-family: Gilroy;
+    src: url('../fonts/Gilroy-Light.otf');
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url('../fonts/Gilroy-ExtraBold.otf');
+}
+
+body {
+    font-family: Gilroy;
+}
+
+.main-page {
+    margin: 0 375px;
+}
+
+.header {
+    /* display: inline-block; */
+    /* padding: 40px 0; */
+}
+
+.header__menu-bar {
+    margin: 40px 0;
+    /* display: inline-block; */
+}
+
+.header_title {
+    display: inline-block;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    margin: 5px 0 0 0;
+}
+
+.header__title_mode {
+    color: #F25822;
+}
+
+.header__menu {
+    display: inline-block;
+    margin: 0px 0 0px 500px;
+}
+
+.menu {
+    /* display: inline; */
+    font-weight: 700;
+}
+
+.menu__els {
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+
+.links {
+    color: #000;
+}
+
+.links:hover {
+    color: #F25822;
+}
+
+
+.content {
+    padding: 44px 64px 163px 0px;
+}
+
+.content__info {
+    width: 550px;
+}
+
+.info__title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.info__about {
+    width: 470px;
+    margin: 38px 0 37px 0;
+    color: #888;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.interactive-elements {}
+
+.main-butn {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+
+    color: #FFF;
+    font-weight: 700;
+    font-size: 15px;
+
+    margin: 0 50px 0 0;
+}
+
+.main-butn:hover {
+    background-color: #fff;
+    color: #F25822;
+    box-shadow: none;
+    border: 2px #F25822 solid;
+}
+
+.additional-butn {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #fff;
+
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.additional-butn:hover {
+    color: #F25822;
+    border: 2px #F25822 solid;
+}
+
+.content__image {
+    m0-0-0-40px
+}
+
+.logs-footer {
+    padding: 97px 0;
+    word-spacing: 38px;
+}

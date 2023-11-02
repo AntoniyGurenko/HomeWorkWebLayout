@@ -1,5 +1,7 @@
 /* Домашнее задание
 
+Семинар 3
+
 1. Открыть макет сайта https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=23%3A2
 
 2. необходимо представить разбиение часть на блоки (Для тех учеников которые умеют работать с фигма разбить представленную на скриншоте часть на блоки, как в семинаре)
@@ -28,7 +30,17 @@
 
 Все домашние задания являются повторением того что делается на семинаре, поэтому перед выполнением обязательно посмотрите семинар. */
 
+/* Семинар 4
 
+Домашнее задание
+
+1. Мы продолжаем работать с проектом из прошлого урока 2. https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=186%3A2
+
+3. В данном домашнем задании мы будем добавлять стилистику и позиционирование для верхнего блока сайта
+
+4. Для всех html элементов из прошлого урока, вам необходимо задать стили в соответствии с макетом.
+
+5. Расставить все элементы в соответствии с макетом */
 /* ------------------------------------- Обнуляющий стиль ------------------------------------ */
 * {
     padding: 0;
@@ -138,27 +150,51 @@ body {
     font-family: Gilroy;
 }
 
+.center {
+    padding: 0 calc(50% - 585px);
+}
+
 .main-page {
     /* margin: 0 375px; */
-    margin: 0 18.93%;
+    /* margin: 0 18.93%; */
 }
 
 .header {
     /* display: inline-block; */
-    /* padding: 40px 0; */
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+
 }
 
 .header__menu-bar {
-    margin: 40px 0;
+    /* margin: 40px 0; */
     /* display: inline-block; */
 }
 
 .header_title {
-    display: inline-block;
+    /* display: inline-block; */
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 24px;
-    margin: 5px 0 0 0;
+    /* margin: 5px 0 0 0; */
 }
 
 .header__title_mode {
@@ -166,8 +202,8 @@ body {
 }
 
 .header__menu {
-    display: inline-block;
-    margin: 0px 0 0px 500px;
+    /* display: inline-block; */
+    /* margin: 0px 0 0px 500px; */
 }
 
 .menu {
@@ -177,7 +213,6 @@ body {
 
 .menu__els {
     display: inline-block;
-    margin: 0 0 0 35px;
 }
 
 .links {
@@ -190,11 +225,17 @@ body {
 
 
 .content {
-    padding: 44px 64px 163px 0px;
+    padding: 44px 0 163px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .content__info {
     width: 550px;
+}
+
+.content__image {
+    /* box-shadow: 1px 1px 10px 10px #888; */
 }
 
 .info__title {
@@ -212,11 +253,13 @@ body {
     line-height: 23px;
 }
 
-.interactive-elements {}
+.interactive-elements {
+    display: flex;
+    gap: 50px;
+}
 
 .main-butn {
     width: 140px;
-    height: 50px;
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
@@ -225,7 +268,6 @@ body {
     font-weight: 700;
     font-size: 15px;
 
-    margin: 0 50px 0 0;
 }
 
 .main-butn:hover {
@@ -250,11 +292,11 @@ body {
     border: 2px #F25822 solid;
 }
 
-.content__image {
-    margin: 0 0 0 40px;
-}
+
 
 .logs-footer {
     padding: 97px 0;
-    word-spacing: 38px;
+    /* word-spacing: 38px; */
+    display: flex;
+    justify-content: space-between;
 }

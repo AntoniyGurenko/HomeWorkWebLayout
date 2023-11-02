@@ -139,7 +139,8 @@ body {
 }
 
 .main-page {
-    margin: 0 375px;
+    /* margin: 0 375px; */
+    margin: 0 18.93%;
 }
 
 .header {

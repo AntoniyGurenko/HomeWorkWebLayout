@@ -662,7 +662,44 @@ body {
 
 .fourth-section__grid__item-3 {}
 
-.fifth-section {
-    height: 800px;
-    background-color: #fff;
+
+
+.fifth-section {}
+
+.fifth-section__container {
+    display: flex;
+    /* flex-flow: wrap row; */
+    justify-content: space-between;
 }
+
+.fifth-section__img {
+    height: 800px;
+}
+
+.fifth-section__info {}
+
+.fifth-section__info__container {}
+
+.fifth-section__info-top {}
+
+.fifth-section__title {}
+
+.fifth-section__about {}
+
+.fifth-section__info-bottom {}
+
+.fifth-section__info-bottom__container {}
+
+.fifth-section__info-bottom__item-1 {}
+
+.fifth-section__info-bottom__items-icon__box {}
+
+.fifth-section__info-bottom__items-info {}
+
+.fifth-section__info-bottom__items-title {}
+
+.fifth-section__info-bottom__items-about {}
+
+.fifth-section__info-bottom__item-2 {}
+
+.fifth-section__info-bottom__item-3 {}
